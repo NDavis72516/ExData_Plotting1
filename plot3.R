@@ -10,7 +10,7 @@ subMetering2 <- as.numeric(house_dates$Sub_metering_2)
 subMetering3 <- as.numeric(house_dates$Sub_metering_3)
                     
 
-#plot histogram for plot3
+#plot code for plot3
 png("plot3.png", width=480, height=480)
 plot(datetime, subMetering1, type="l", xlab="", ylab="Energy sub metering")
 lines(datetime, subMetering2, type="l", col="red")
